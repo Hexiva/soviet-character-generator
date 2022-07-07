@@ -1,8 +1,12 @@
 body {
+  background-image: url("icon.png");
   background-color:black;
+  background-repeat:no-repeat;
+  background-position:left center;
   color:white;
   margin-bottom:50px;
   font-family: 'IBM Plex Mono', monospace;
+  min-height:100%;
 }
 
 #char1 {
@@ -11,7 +15,7 @@ body {
   background: #222;
   padding: 23px;
   width: 359px;
-  float: left;
+  float: right;
 }
 #line1 {
   width:625px;
